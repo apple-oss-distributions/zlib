@@ -6,12 +6,12 @@
 
 Project        = zlib
 Name           = $(Project)
-Version        = 1.2.2
+Version        = 1.2.3
 Name_Vers      = $(Name)-$(Version)
 Compress_Type  = bz2
 Tarball        = $(Name_Vers).tar.$(Compress_Type)
 Extract_Dir    = $(Name_Vers)
-Patch_List     = Makefile.in.diff configure.diff zconf.in.h.diff
+Patch_List     = Makefile.in.diff configure.diff zconf.in.h.diff zlib.h.diff
 
 ## Don't modify below here ##
 
