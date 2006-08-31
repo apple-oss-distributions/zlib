@@ -16,6 +16,7 @@
 	<array>
 		<string>Minor changes to configure script.</string>
 		<string>Cast sizeof(z_stream) to int in zlib.h</string>
+		<string>compress2(): fail under LP64 if source &gt; 4GB</string>
 	</array>
 	<key>OpenSourceLicense</key>
 	<string>other</string>
